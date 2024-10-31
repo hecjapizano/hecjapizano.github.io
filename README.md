@@ -1,16 +1,17 @@
 ## Hi there 👋
 
-<!--
-**hecjapizano/hecjapizano** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+My name is Hector Garcia!
 
-Here are some ideas to get you started:
+[Perfil Hector](https://github.com/user-attachments/assets/792b46ed-fa58-4322-9d2e-afe54b9f9048)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I live in Bogota Colombia
+I'm 31 years old
+I'm a software developer with knowledge in Html, CSS, JavaScript, C++, Java, C#
+
+- 🌱 I'm currently learning C#
+- 👯 I’m looking to collaborate on ...Software projects, IA development, Microsoft platform, Google Worksapce etc
+- 🤔 I’m looking for help with ...Work as a junior developer, Teacher, etc.
+- 💬 Ask me about ...Software development, System engineering, math, Programming, chess, Machine learning
+- 📫 www.linkedin.com/in/hecjapizano
+- I like to play chess, League of legends and watch movies, animes and more
+

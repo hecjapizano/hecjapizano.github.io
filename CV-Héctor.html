@@ -85,14 +85,33 @@
         .text-justify {
             text-align: justify;
         }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 15px;
+            color: #2563eb;
+        }
+
+        @media print {
+            body {
+                margin: 0;
+                padding: 10px 20px;
+            }
+            .back-link,
+            .print-button {
+                display: none;
+            }
+        }
     </style>
 </head>
 <body>
+    <a class="back-link" href="index.html">&larr; Volver al portafolio</a>
+    <button class="print-button" type="button" onclick="window.print()">Imprimir / Guardar PDF</button>
 
     <header>
         <h1>Héctor Jaime García Pizano</h1>
         <div class="contact-info">
-            <span>Bogotá D.C.</span> |
+            <span>33 años · Bogotá D.C., Colombia</span> |
             <span><a href="mailto:hecjapizano@gmail.com">hecjapizano@gmail.com</a></span> |
             <span><a href="http://wa.me/+573028488818">+57 302 848 88 18</a></span> |
             <span><a href="https://www.linkedin.com/in/hecjapizano" target="_blank">linkedin.com/in/hecjapizano</a></span>
@@ -101,13 +120,13 @@
 
     <section>
         <p class="text-justify">
-            Más de 3 años de experiencia en el área IT. Hago parte de la mesa de ayuda de Grant Thornton Colombia, manteniendo el nivel de SLA por encima del 90% consistentemente y resolviendo el 100% de los tickets de servicios. Me destaco por ser proactivo, respetuoso y cordial. Microsoft Certified: AI Transformation Leader (candidate). Estudiante de Ingeniería de Sistemas con un promedio de 4.9/5.0.
+            Estudiante de Ingeniería de Sistemas (UNAD, promedio 4,85/5,0, 87 créditos aprobados) con casi 3 años de experiencia en tecnología y analítica. Diseño tableros de indicadores en Power BI, analizo datos con Python y pandas, y automatizo procesos con Power Automate, Power Apps y Microsoft Copilot. Certificado por Microsoft como AI Transformation Leader. Mi objetivo profesional es crecer en <strong>Análisis de Datos e IA</strong>, aportando soluciones orientadas a datos, automatización e inteligencia artificial aplicada.
         </p>
     </section>
 
     <section>
         <h2>Experiencia Profesional</h2>
-        
+
         <div class="job-entry">
             <div class="entry-header">
                 <span>Grant Thornton Colombia</span>
@@ -118,43 +137,127 @@
                 <span>Abril 2025 - Actualidad</span>
             </div>
             <ul>
-                <li>Responsable de gestionar la mesa de ayuda a nivel nacional.</li>
-                <li>Resolver y gestionar tickets de soporte técnico.</li>
-                <li>Alimentar y mantener actualizado el sistema de control de activos de IT e inventario.</li>
-                <li>Gestionar y resolver fallas en servicios de red y telefonía IP.</li>
-                <li>Realizar mantenimiento predictivo, preventivo y correctivo de los equipos tecnológicos.</li>
-                <li>Implementar y mantener la imagen corporativa de GTIL (Grant Thornton International) en la infraestructura de la firma.</li>
-                <li>Implementar políticas y procedimientos de TI y ciberseguridad aplicables.</li>
+                <li>Resolví más de 2.100 solicitudes con 99,9 % de efectividad y 93 % de cumplimiento de ANS, incluidas 188 de prioridad crítica.</li>
+                <li>Diseñé tableros de Power BI para seguimiento de ANS, solicitudes abiertas y cerradas, servicios, áreas y prioridades.</li>
+                <li>Coordiné temporalmente la mesa de ayuda nacional en periodos de ausencia del coordinador.</li>
+                <li>Co-formulé GT Aegis, propuesta de IA local para clasificación documental y protección de PII, alineada con ISO/IEC 27001 e ISO/IEC 42001.</li>
+                <li>Levanté requerimientos de un sistema de órdenes de compra en SharePoint, Power Apps y Power Automate.</li>
+                <li>Implementé cifrado con BitLocker, gestión de equipos con Intune y remediación de vulnerabilidades.</li>
+            </ul>
+        </div>
+
+        <div class="job-entry">
+            <div class="entry-header">
+                <span>Grant Thornton Colombia</span>
+                <span>Bogotá D.C., Colombia</span>
+            </div>
+            <div class="entry-sub">
+                <span>Técnico en Sistemas · Tercerizado por Azur Tecnología</span>
+                <span>Noviembre 2024 - Marzo 2025</span>
+            </div>
+            <ul>
+                <li>Soporte técnico, configuración de equipos y gestión del inventario de activos tecnológicos.</li>
+            </ul>
+        </div>
+
+        <div class="job-entry">
+            <div class="entry-header">
+                <span>Gran Colombia Investments</span>
+                <span>Bogotá D.C., Colombia</span>
+            </div>
+            <div class="entry-sub">
+                <span>Técnico en Sistemas · Tercerizado por SISA</span>
+                <span>Octubre 2023 - Abril 2024</span>
+            </div>
+            <ul>
+                <li>Integré datos con técnicas de visualización y análisis y mantuve el inventario de equipos en una base de datos.</li>
+                <li>Atendí requerimientos de usuarios y apoyé la administración de infraestructura de red.</li>
+            </ul>
+        </div>
+
+        <div class="job-entry">
+            <div class="entry-header">
+                <span>Grant Thornton Colombia</span>
+                <span>Bogotá D.C., Colombia</span>
+            </div>
+            <div class="entry-sub">
+                <span>Técnico en Sistemas · Tercerizado por Azur Tecnología</span>
+                <span>Marzo 2023 - Agosto 2023</span>
+            </div>
+            <ul>
+                <li>Soporte técnico, mantenimiento preventivo y correctivo y gestión de inventario de activos.</li>
+            </ul>
+        </div>
+
+        <div class="job-entry">
+            <div class="entry-header">
+                <span>Experiencia previa</span>
+                <span>2020 - 2022</span>
+            </div>
+            <div class="entry-sub">
+                <span>Alcaldías Locales de Usaquén y Bosa · Sucomputo S.A.S.</span>
+                <span>Bogotá D.C., Colombia</span>
+            </div>
+            <ul>
+                <li>Registro y actualización de datos, digitalización de expedientes e informes mensuales de avance.</li>
             </ul>
         </div>
     </section>
 
     <section>
         <h2>Educación</h2>
-        
+
         <div class="edu-entry">
             <div class="entry-header">
                 <span>Universidad Nacional Abierta y a Distancia (UNAD)</span>
                 <span>Bogotá D.C., Colombia</span>
             </div>
             <div class="entry-sub">
-                <span>Ingeniería de Sistemas (VI periodo en curso)</span>
+                <span>Ingeniería de Sistemas</span>
                 <span>Abril 2024 - En curso</span>
             </div>
             <ul>
-                <li>Promedio acumulado: 4.8/5.0</li>
+                <li>Promedio acumulado: 4,85/5,0 · 87 créditos aprobados.</li>
+                <li>Cursos relevantes: Ciencia de los Datos Aplicada con Python (4,8), Estadística Descriptiva, Probabilidad, Programación (5,0), Diseño de Software (5,0) y Análisis y Especificación de Requerimientos (4,9).</li>
+            </ul>
+        </div>
+
+        <div class="edu-entry">
+            <div class="entry-header">
+                <span>Universidad Nacional de Colombia</span>
+                <span>Bogotá D.C., Colombia</span>
+            </div>
+            <div class="entry-sub">
+                <span>Ingeniería de Sistemas y Computación</span>
+                <span>2011 - 2014</span>
+            </div>
+            <ul>
+                <li>47 créditos cursados, no culminada.</li>
             </ul>
         </div>
     </section>
 
     <section>
-        <h2>Habilidades Adicionales</h2>
+        <h2>Certificaciones</h2>
         <ul>
-            <li><strong>AI:</strong> Copilot and Agent Administration Foundamentals, AI Transformation Leader.</li>
-            <li><strong>Gestión y analítica de datos:</strong> SQL, Power BI, Python y Excel.</li>
-            <li><strong>Desarrollo:</strong> Python (elemental y avanzado), conocimientos en análisis y especificación de requerimientos de Software.</li>
-            <li><strong>Idiomas:</strong> Inglés nivel B1+.</li>
-            <li><strong>Habilidades blandas:</strong> Excelentes habilidades comunicativas y de servicio al usuario.</li>
+            <li>Microsoft Certified: AI Transformation Leader · Marzo 2026.</li>
+            <li>Microsoft 365 Certified: Copilot and Agent Administration Fundamentals (AB-900) · Abril 2026.</li>
+            <li>Data Analysis with Python · IBM / Coursera · Julio 2026.</li>
+            <li>Python for Data Science · Fractal Analytics / Coursera · Julio 2026.</li>
+            <li>Gestión y Analítica de Datos Empresariales con Excel y Power BI · 32 h · Agosto 2025.</li>
+            <li>Python Essentials 1 y 2 · Cisco Networking Academy · 2025.</li>
+            <li>English for IT B1+ · OpenEDG · Julio 2025.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Habilidades Técnicas e Idiomas</h2>
+        <ul>
+            <li><strong>Datos y análisis:</strong> Python (pandas, Streamlit), SQL, Power BI, Power Query, Excel avanzado y estadística descriptiva.</li>
+            <li><strong>IA y automatización:</strong> Microsoft Copilot, IA agéntica, Power Apps, Power Automate y SharePoint.</li>
+            <li><strong>Gobierno y seguridad:</strong> ISO/IEC 27001, ISO/IEC 42001, protección de PII, BitLocker y Microsoft Intune.</li>
+            <li><strong>Ingeniería de software:</strong> Levantamiento de requisitos, modelado UML y documentación técnica.</li>
+            <li><strong>Idiomas:</strong> Español nativo · Inglés B1+ certificado · Curso de Inglés B2 aprobado en la UNAD.</li>
         </ul>
     </section>
 

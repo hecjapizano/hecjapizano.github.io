@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio Digital</title>
-    <script type="JavaScript" src="script.js"></script>
+    <title>Héctor García | Analista de Datos e IA</title>
+    <meta name="description" content="Portafolio profesional de Héctor Jaime García Pizano, analista de datos e inteligencia artificial aplicada.">
+    <script defer src="script.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">Hector Jaime García Pizano</div>
+            <div class="logo">Héctor Jaime García Pizano</div>
             <div class="nav-links">
                 <a href="#inicio">Inicio</a>
+                <a href="#perfil">Perfil</a>
                 <a href="#experiencia">Experiencia</a>
                 <a href="#proyectos">Proyectos</a>
                 <a href="#contacto">Contacto</a>
@@ -23,9 +25,45 @@
 
     <section class="hero" id="inicio">
         <div class="hero-content">
-            <h1>Hola, soy Hector García</h1>
-            <h2>Desarrollador Web Full Stack & Entusiasta Digital</h2>            
+            <p class="eyebrow">Analista de Datos · Python · IA aplicada</p>
+            <h1>Hola, soy Héctor García</h1>
+            <h2>Transformo datos y procesos en decisiones útiles</h2>
+            <p class="hero-summary">Estudiante de Ingeniería de Sistemas y profesional de tecnología enfocado en análisis de datos, automatización e inteligencia artificial.</p>
+            <div class="hero-actions">
+                <a class="button button-primary" href="#experiencia">Ver experiencia</a>
+                <a class="button button-secondary" href="CV-Héctor.html">Consultar CV</a>
+            </div>
             <img src="img/perfil.jpg" alt="foto de perfil Hector">
+        </div>
+    </section>
+
+    <section class="profile" id="perfil">
+        <div class="profile-intro">
+            <p class="eyebrow">Sobre mí</p>
+            <h2>Datos, tecnología e impacto</h2>
+            <p>Profesional con casi 3 años de experiencia en tecnología y analítica. Diseño tableros en Power BI, analizo datos con Python y pandas, automatizo procesos y exploro soluciones de IA con enfoque en gobierno de datos y protección de PII.</p>
+        </div>
+        <div class="profile-grid">
+            <article class="profile-card">
+                <strong>33</strong>
+                <span>Años</span>
+            </article>
+            <article class="profile-card">
+                <strong>4,85/5</strong>
+                <span>Promedio académico UNAD</span>
+            </article>
+            <article class="profile-card">
+                <strong>87</strong>
+                <span>Créditos aprobados</span>
+            </article>
+            <article class="profile-card">
+                <strong>2.100+</strong>
+                <span>Solicitudes resueltas</span>
+            </article>
+        </div>
+        <div class="goal">
+            <h3>Objetivo profesional</h3>
+            <p>Crecer como profesional en <strong>Análisis de Datos e IA</strong>, desarrollando soluciones de analítica, automatización y inteligencia artificial aplicadas a problemas reales.</p>
         </div>
     </section>
 
@@ -35,26 +73,32 @@
             <div class="timeline-item">
                 <h3>Grant Thornton Colombia</h3>
                 <h4>Asistente C de IT</h4>
-                <p>Abril de 2025-Actualmente en el cargo</p>
-                <p>Responsable de gestionar la mesa de ayuda a nivel nacional.</p>
-                <p>Resolver y gestionar tickets de soporte técnico.</p>
-                <lp>Alimentar y mantener actualizado el sistema de control de activos de IT e inventario.</p>
-                <p>Gestionar y resolver fallas en servicios de red y telefonía IP.</p>
-                <p>Realizar mantenimiento predictivo, preventivo y correctivo de los equipos tecnológicos.</p>
-                <p>Implementar y mantener la imagen corporativa de GTIL (Grant Thornton International) en la infraestructura de la firma.</p>
-                <p>Implementar políticas y procedimientos de TI y ciberseguridad aplicables.</p>
+                <p class="timeline-date">Abril 2025 - Actualidad</p>
+                <ul>
+                    <li>Resolví más de 2.100 solicitudes con 99,9 % de efectividad y 93 % de cumplimiento de ANS.</li>
+                    <li>Diseñé tableros de Power BI para seguimiento de ANS, solicitudes, servicios, áreas y prioridades.</li>
+                    <li>Co-formulé GT Aegis, una propuesta de IA local para clasificación documental y protección de PII.</li>
+                    <li>Coordino temporalmente la mesa de ayuda nacional y exploro casos de Microsoft Copilot e IA agéntica.</li>
+                </ul>
             </div>
             <div class="timeline-item">
-                <h3>Azur IT</h3>
-                <h4>Asistente técnico de soporte TI</h4>
-                <p>marzo 2023-agosto 2023</p>
-                <p>Dar apoyo en los procesos documentales del área de TI, como mantenimiento del inventario físico y digital de los activos de la empresa.</p>
-                <p>Gestionar casos de problemas técnicos con plataforma de Microsoft 365 y Windows 11/10.</p>
-                <p>Solucionar problemas de conectividad de red en la empresa, configuración de equipos de red como Access point, switches, firewalls y demás infraestructura de red.</p>
-                <p>Realizar mantenimiento preventivo, correctivo y predictivo a equipos de cómputo, impresoras y otros periféricos, gestionar garantía o mantenimiento externo en caso de ser requerido.</p>
-                <p>Capacitar al personal que ingresa a la compañía en cuanto al uso correcto de los elementos, practicas básicas de seguridad informática y uso de la plataforma Microsoft 365 y el sistema operativo Windows 11/10.</p>
+                <h3>Grant Thornton Colombia</h3>
+                <h4>Técnico en Sistemas</h4>
+                <p class="timeline-date">Noviembre 2024 - Marzo 2025</p>
+                <p>Soporte técnico, configuración de equipos y gestión de inventario de activos tecnológicos.</p>
             </div>
-            <!-- Añade más timeline-items según necesites -->
+            <div class="timeline-item">
+                <h3>Gran Colombia Investments</h3>
+                <h4>Técnico en Sistemas</h4>
+                <p class="timeline-date">Octubre 2023 - Abril 2024</p>
+                <p>Integración de datos, visualización, análisis y administración del inventario de equipos e infraestructura de red.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Grant Thornton Colombia</h3>
+                <h4>Técnico en Sistemas</h4>
+                <p class="timeline-date">Marzo 2023 - Agosto 2023</p>
+                <p>Soporte técnico, mantenimiento de equipos y gestión de inventario tecnológico.</p>
+            </div>
         </div>
     </section>
 
